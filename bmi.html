@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bmi.css">
+</head>
+<body>
+  <center>
+  <div class="star">
+    <div class="box">
+    <h1>BMI Calculater</h1>
+   <div class="content">
+        
+                <div class="input" >
+                   
+                  <label for="age">Age</label> <br>
+                     <input type="number" id="age"></div><br>
+
+                    <div class="malef">
+                     <div class="gender">
+                        <label for="m"> </label>
+                            <input type="radio" name="radio" id="m"><p>Male</p>
+                            <label for="fm"> </label>
+                            <input type="radio" name="radio" id="fm"><p>Female</p>
+                    
+
+                     </div>
+                    </div>
+
+            <div class="hw">
+                   <div  class="input1"> 
+                    <label for="height"> Height(cm)</label></br>
+                    <input type="number" id="height"></div><br>
+                    
+                   <div class="input2" >
+                     <label for="weight">Weight(kg)</label><br>
+                    <input type="number" id="weight"></div><br>
+            </div>
+            
+        
+            <button onclick="calculatebmi()"><h2>calculate BMI</h2></button>
+      
+   </div>
+    </div>
+  
+
+
+            
+            
+                
+                    <div style="display: flex; justify-content: space-evenly; font-family:fantasy; margin-top: 80px; font-size: 20px;">
+                       
+                          
+                      
+                        <div id="underweight">  <br> Under weight</div>
+                  
+                   
+                  
+                        <div id="normal">  <br><br>Normal</div>
+                  
+                  
+                        <div id="overweight"> <br>Over weight </div>
+                    </div>
+                   
+    <script src="./bmi.js"></script>
+</body>
+</html>
